@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58D56F022275EA4F003E7E34 /* Collect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D56F012275EA4F003E7E34 /* Collect.swift */; };
+		58D56F062275EF95003E7E34 /* CollectProcedureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D56F032275EC90003E7E34 /* CollectProcedureTests.swift */; };
 		65068FAD20C62AE300B0A0A3 /* MakesBackgroundManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65068FAC20C62AE300B0A0A3 /* MakesBackgroundManagedObjectContext.swift */; };
 		651E670520C610D800BE520E /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E670420C610D800BE520E /* CoreDataHelpers.swift */; };
 		6527C35C2202026800D6F498 /* Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6527C35B2202026800D6F498 /* Decode.swift */; };
@@ -543,6 +545,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		58D56F012275EA4F003E7E34 /* Collect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collect.swift; sourceTree = "<group>"; };
+		58D56F032275EC90003E7E34 /* CollectProcedureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectProcedureTests.swift; sourceTree = "<group>"; };
 		65068FAC20C62AE300B0A0A3 /* MakesBackgroundManagedObjectContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakesBackgroundManagedObjectContext.swift; sourceTree = "<group>"; };
 		651E670420C610D800BE520E /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
 		6527C35B2202026800D6F498 /* Decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decode.swift; sourceTree = "<group>"; };
@@ -1219,6 +1223,7 @@
 				65D366EA1E183FB000D03E86 /* BlockProcedureTests.swift */,
 				65D366EB1E183FB000D03E86 /* CancellationTests.swift */,
 				65D366EC1E183FB000D03E86 /* CapabilityTests.swift */,
+				58D56F032275EC90003E7E34 /* CollectProcedureTests.swift */,
 				65D366ED1E183FB000D03E86 /* ComposedProcedureTests.swift */,
 				65D366EE1E183FB000D03E86 /* ConditionTests.swift */,
 				65D366EF1E183FB000D03E86 /* DelayProcedureTests.swift */,
@@ -1394,6 +1399,7 @@
 				65AB7DD9209B95B400726796 /* Batch.swift */,
 				65D368681E184AA600D03E86 /* Block.swift */,
 				65D3686B1E184AA600D03E86 /* Capability.swift */,
+				58D56F012275EA4F003E7E34 /* Collect.swift */,
 				65D3686D1E184AA600D03E86 /* Composed.swift */,
 				6527C35B2202026800D6F498 /* Decode.swift */,
 				65D3686F1E184AA600D03E86 /* Delay.swift */,
@@ -2410,6 +2416,7 @@
 				65D3689B1E184AA600D03E86 /* MutualExclusion.swift in Sources */,
 				65D368991E184AA600D03E86 /* Logging.swift in Sources */,
 				65D368AD1E184AA600D03E86 /* Transform.swift in Sources */,
+				58D56F022275EA4F003E7E34 /* Collect.swift in Sources */,
 				65D368AA1E184AA600D03E86 /* SilentCondition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2450,6 +2457,7 @@
 				65D367111E183FB000D03E86 /* ComposedProcedureTests.swift in Sources */,
 				65D367211E183FB000D03E86 /* MutualExclusivityTests.swift in Sources */,
 				65D3672F1E183FB000D03E86 /* ProfilerTests.swift in Sources */,
+				58D56F062275EF95003E7E34 /* CollectProcedureTests.swift in Sources */,
 				65D367171E183FB000D03E86 /* FilterProcedureTests.swift in Sources */,
 				65D367151E183FB000D03E86 /* DelayProcedureTests.swift in Sources */,
 				65D3670B1E183FB000D03E86 /* BlockProcedureTests.swift in Sources */,
